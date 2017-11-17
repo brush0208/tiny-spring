@@ -1,6 +1,11 @@
 package us.codecraft.tinyioc;
 
 import org.junit.Test;
+
+import us.codecraft.tinyioc.BeanDefinition;
+import us.codecraft.tinyioc.HelloWorldService;
+import us.codecraft.tinyioc.PropertyValue;
+import us.codecraft.tinyioc.PropertyValues;
 import us.codecraft.tinyioc.factory.AutowireCapableBeanFactory;
 import us.codecraft.tinyioc.factory.BeanFactory;
 
