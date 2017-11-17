@@ -8,7 +8,7 @@ public class BeanDefinition {
 
 	private Object bean;
 
-	private Class beanClass;
+	private Class<?> beanClass;
 
 	private String beanClassName;
 
@@ -21,11 +21,11 @@ public class BeanDefinition {
 		this.bean = bean;
 	}
 
-	public Class getBeanClass() {
+	public Class<?> getBeanClass() {
 		return beanClass;
 	}
 
-	public void setBeanClass(Class beanClass) {
+	public void setBeanClass(Class<?> beanClass) {
 		this.beanClass = beanClass;
 	}
 
